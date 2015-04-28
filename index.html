@@ -2,36 +2,30 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <!-- This loops through the paginated posts -->
-  {% for post in paginator.posts %}
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p class="author">
-      <span class="date">{{ post.date }}</span>
-    </p>
-    <div class="content">
-      {{ post.content }}
+{% for post in paginator.posts %}
+<div class="article">
+    <div class="well">
+        <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
+        {% if site.comments == true and post.comments == true and site.disqus != '' %}
+          <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread">Comments</a></p>
+        {% endif %}
+        <div class="content">
+            {{ post.content }}
+        </div>
     </div>
-  {% endfor %}
+</div>
+{% endfor %}
 
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-    {% else %}
-      <span class="previous">Previous</span>
-    {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-    {% else %}
-      <span class="next ">Next</span>
-    {% endif %}
-  </div>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="pagination">
+  {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <a class="btn btn-default" href="{{ site.baseurl}}/index.html" class="previous">Newer</a>
+      {% else %}
+        <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.previous_page }}" class="previous">Newer</a>
+      {% endif %}
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.next_page }}" class="next">Older</a>
+  {% endif %}
 </div>
