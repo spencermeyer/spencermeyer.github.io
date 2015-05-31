@@ -1,7 +1,7 @@
 # Jekyll configuration
 
-name: Spencer blog
-description: Spencers Blog
+name: Spencer's blog
+description: Spencer's Blog
 
 # url is currently only used only for the RSS feed in feed.xml
 url: http://spencermeyer.github.io

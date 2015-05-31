@@ -8,7 +8,7 @@ categories: jekyll update
 March2015
 Spencer starts WDI at General Assembly, Shoreditch, London.
 Skills being learnt include: html, css, haml, sass, ruby, ruby on rails, Javascript, JQuery, Underscore JS, Coffeescript, AJAX, SQL.
-Tools being learnt include Heroku, Git, Github, Bourbon, Jekyll, API, NodeJS, Google Maps, Sinatra, Foundation, 
+Tools being learnt include Heroku, Git, Github, Bourbon, Jekyll, API, NodeJS, Google Maps, Sinatra, Foundation, Backbone JS, Require JS and others.
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
