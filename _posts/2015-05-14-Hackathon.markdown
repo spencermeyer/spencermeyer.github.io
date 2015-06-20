@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "24 Hour Hackathon at WDI"
-date:   2015-05-31 15:43:53
+date:   2015-05-14 15:43:53
 categories: jekyll update
 ---
 
