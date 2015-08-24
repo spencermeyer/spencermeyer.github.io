@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "BusStopApp"
+date:   2015-08-24 15:43:52
+categories: jekyll update
+---
+
+August2015
+I wanted to pratise some AJAX techniques.  This application retrieves live bus data from TFL (Transport For London) and constructs a customised selector list depending upon which bus route you have chosen.  Then it selects buses depending upon which bus stop you choose, and AJAXes the data into the view.
