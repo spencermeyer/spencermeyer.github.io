@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RubyScraper"
+title:  "LeJog Tracker"
 date:   2018-08-03 15:00:00
 categories: jekyll update
 ---
