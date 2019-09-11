@@ -5,7 +5,7 @@ date:   2015-08-24 15:43:52
 categories: jekyll update
 ---
 
-# H3 London Bus Stalker
+# London Bus Stalker
 
 I wanted to pratice some AJAX techniques and set up a Node application.  This application retrieves live bus data from TFL (Transport For London) and constructs a customised selector list depending upon which bus route you have chosen.  Then it selects buses depending upon which bus stop you choose, and AJAXes the data into the view.
 At the moment, it cannot tell you which direction the bus is going, this is on my list for improvements.

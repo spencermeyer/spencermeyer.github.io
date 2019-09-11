@@ -5,7 +5,7 @@ date:   2018-08-03 15:00:00
 categories: jekyll update
 ---
 
-# H3 A Webscraping Application using Rails 5 and Ruby 2.4.4
+# A Webscraping Application using Rails 5 and Ruby 2.4.4
 
 This is a webscraping applicaiton for my local running club who like to compile results from Parkruns where our local club members have visited.
 

@@ -5,7 +5,7 @@ date:   2018-08-03 15:00:00
 categories: jekyll update
 ---
 
-# H3 My Land's End to John O Groats tracker.
+# Land's End to John O Groats tracker.
 
 This app allows users to track their virtual progress from Land's end to John O Groats on a google map.
 
