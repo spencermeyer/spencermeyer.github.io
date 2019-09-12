@@ -23,3 +23,9 @@ I am hosting this website on a Digital Ocean Droplet.  I enjoyed setting this up
 At the moment, I have a problem in that Strava deny me access to user data when the user is not connected with the API owner, I am working on this.
 
 [It is hosted here](https://eastleighlejogtracker.co.uk/)
+
+Here is a screenshot of the site:
+
+<div style="text-align: center">
+  <img src='/assets/EastleighLeJogTrackerScreenshot.png' width='500px'>
+</div>

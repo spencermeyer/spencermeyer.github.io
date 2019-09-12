@@ -1,8 +1,8 @@
-Hi, this is my blog post website. Spencer.
+Hi, this is my blog post website.
 
-It is created from a modified Jekyll template and my intention is to list my projects.
+This shows the progression of my projects since I converted to being a web developer in 2015.
 
-
+It is created from a modified Jekyll template and I list and summarise my hobby development projects that I work on in my spare time.  At work I work on the photos website for the worlds largest company.
 
 
 <!-- I have deleted the link to the RSS feed as this is not wanted.  If I want to put it back, insert:

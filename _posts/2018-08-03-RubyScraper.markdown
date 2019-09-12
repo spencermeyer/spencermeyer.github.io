@@ -24,3 +24,9 @@ When put into production, I found I was getting a connection refused when making
 The app is database heavy and takes time to do the scraping. To optimise this I've collected all the data in a massive hash and then saved it all in one db transaction at the end instead of individual transactions. I do various age grade and age category positions allocations on the hash before saving, this is much faster than using active record saves individually.
 
 [It is hosted here](https://parkcollectoronrails.co.uk/)
+
+Here is a screenshot of the site:
+
+<div style="text-align: center">
+  <img src='/assets/ParkCollectorOnRailsScreenshot.png' width='500px'>
+</div>
