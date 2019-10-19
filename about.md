@@ -9,8 +9,8 @@ layout: default
     <p>After studying pure mathematics with statistics, chemistry and biology at A level I went on to study Chemical and Bioprocess Engineering at the  University of Surrey.</p>
     <p>I then took Web Development Immersive at General Assembly, London and converted to being a web developer.</p>
     <h1>Web Developer</h1>
-    I work with Ruby on Rails and React JS.  See my blog posts for some of my hobby applications I have developed with these technologies.
+    I mainly work with Ruby on Rails and React JS.  See my blog posts for some of my hobby applications I have developed with these technologies.
     <h1>Interests</h1>
     <p>I enjoy running, training frequently with my running club and compete in my local parkrun, local 10ks, 10 miles, 1/2 marathons and marathons.  I am creating some "technology" projects with some friends.  I have learnt French to a proficient level and basic German, both in my own time by self study and attending evening classes.</p>
-    <img src='/assets/Image.jpg' width='200px'>
+    <img src='/assets/image.jpg' width='150px'>
 </div>
