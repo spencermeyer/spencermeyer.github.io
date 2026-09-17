@@ -13,7 +13,7 @@ There is a React JS front end that provides the keyboard and lampboard, and list
 
 There is a ruby back end that emulates the rotors.  It listens for the AJAX calls from the front end and provides the logic of the letter transformation throught the rotors, and the rotor rotation, then replies to the AJAX call with the lamp board letter to be lit up on the front end.
 
-[It is hosted here](https://lit-tundra-09860.herokuapp.com/)
+[It is hosted here](https://lit-tundra-09860.herokuapp.com/) I am not hosting this anymore since Heroku started charging.
 
 <div style="text-align: center">
   <img src='/assets/enigma-machine.png' width='400px'>
